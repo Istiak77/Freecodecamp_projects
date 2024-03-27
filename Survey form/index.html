@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Do you support genocide?</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Do you support genocide?</h1>
+    <p id="description">Please fill out this form with the required information</p>
+    <form id="survey-form">
+      <fieldset>
+        <div><label  id="name-label" for="name">Name: <input id="name" name="name" type="text" required placeholder="name" /></label></div>
+    <div><label id="email-label" for="email">Enter Your Email: <input id="email" name="email" type="email" placeholder="email" required/></label></div>
+      </fieldset>
+      <fieldset>
+        <legend>What is your gender?</legend>
+        <label for="Male"><input id="Male" type="radio" value="1" name="gender" class="inline" checked />Male</label>
+        <label for="Female"><input id="Female" type="radio" value="2" name="gender" class="inline" />Female</label>
+      </fieldset>
+      <fieldset>
+        <label id="number-label" for="number">How old are you<input id="number" type="number" name="number-label" min="13" max="100" placeholder="age"/>
+        <label for="country?">Whom do you support?
+          <select id="dropdown" name="country?">
+            <option value="">(select one)</option>
+            <option value="1">Palestine</option>
+            <option value="2">Isreal</option>
+          </select>
+        </label>
+        <label for="bio">Why do you support your selected country?
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I do/don't support genocide "></textarea>
+        </label>
+        <label>Do you want this to be shown to the public?</label>
+        <label for="checkbox" name="yes"><input type="checkbox" value="yes">Yes</label>
+        <label for="checkbox" name="no"><input type="checkbox" value="no">No</label>
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

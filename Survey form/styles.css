@@ -1,0 +1,83 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-image:url(https://media.licdn.com/dms/image/D4D12AQEtB8ypsiUx8g/article-cover_image-shrink_720_1280/0/1698679177684?e=2147483647&v=beta&t=JOEXiEjzOMY4Af6ZbrkDjtyof9igvp0K1fVhgiFCKeA);
+  color: black;
+  font-family: Tahoma;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input, textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
+}
+
+input[type="file"] {
+  padding: 1px 2px;
+}
+
+input[type="checkbox"] {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+a{
+ color:#dfdfe2;
+}
